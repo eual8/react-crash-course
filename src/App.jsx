@@ -5,6 +5,7 @@ const App = () => {
   const x = 10;
   const y = 20;
   const names = ['John', 'Jane', 'Bob', 'Alice', 'Tom'];
+  const loggedIn = false;
 
   return (
     <div className='text-2xl'>
@@ -15,6 +16,7 @@ const App = () => {
           <li key={index}>{name}</li>
         ))}
       </ul>
+      {loggedIn && <h2 className='text-2xl font-bold'>Welcome back!</h2>}
     </div>
   )
 }
