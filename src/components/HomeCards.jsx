@@ -1,6 +1,6 @@
 import Card from "./Card";
 
-const HomeCard = () => {
+const HomeCards = () => {
   return (
     <section className="py-4">
         <div className="container-xl lg:container m-auto">
@@ -36,4 +36,4 @@ const HomeCard = () => {
   )
 }
 
-export default HomeCard
+export default HomeCards
