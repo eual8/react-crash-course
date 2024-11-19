@@ -83,34 +83,6 @@
         "contactEmail": "contact@ipsumlorem.com",
         "contactPhone": "555-555-5555"
       }
-    },
-    {
-      "id": "ad18",
-      "title": "31234",
-      "description": "423423",
-      "type": "Part-Time",
-      "location": "rewr",
-      "salary": "$80K - 90K",
-      "company": {
-        "name": "rwer",
-        "description": "rwer",
-        "contactEmail": "wer@aeff",
-        "contactPhone": "234r23r"
-      }
-    },
-    {
-      "id": "add8",
-      "title": "werwer",
-      "description": " erwrwer",
-      "type": "Part-Time",
-      "location": "rwer",
-      "salary": "$60K - 70K",
-      "company": {
-        "name": "rwer",
-        "description": "werwer",
-        "contactEmail": "werwer@sdg",
-        "contactPhone": "wer"
-      }
     }
   ]
 }
