@@ -61,6 +61,10 @@ const JobForm = ({
     return navigate(redirectPath);
   };
 
+  const handleCancel = () => {
+    navigate(redirectPath);
+  };
+
   return (
     <section className="bg-indigo-50">
       <div className="container m-auto max-w-2xl py-24">
@@ -239,6 +243,13 @@ const JobForm = ({
                 type="submit"
               >
                 {formType === 'add' ? 'Add Job' : 'Update Job'}
+              </button>
+              <button
+                className="bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline mt-4"
+                type="button"
+                onClick={handleCancel}
+              >
+                Cancel
               </button>
             </div>
           </form>
